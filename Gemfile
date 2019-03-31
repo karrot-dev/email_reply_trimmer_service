@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'sinatra'
+gem 'puma'
+gem 'json'
+gem 'email_reply_trimmer', '~> 0.1'
+# gem 'email_reply_trimmer', :git => 'https://github.com/discourse/email_reply_trimmer.git'
