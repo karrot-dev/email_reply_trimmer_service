@@ -2,7 +2,10 @@ require 'sinatra'
 require 'json'
 require 'email_reply_trimmer'
 
-configure { set :server, :puma }
+configure { 
+  set :server, :puma
+  set :bind, '0.0.0.0'
+}
 
 post '/trim' do
   body = JSON.parse(request.body.read)

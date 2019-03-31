@@ -5,7 +5,7 @@ Wraps https://github.com/discourse/email_reply_trimmer into a docker container a
 Run the docker container:
 
 ```sh
-docker run -it --network host karrot/email_reply_parser
+docker run -it -p 4567:4567 karrot/email_reply_trimmer_service
 ```
 
 Then ask it to trim a plaintext email body:
