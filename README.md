@@ -1,3 +1,8 @@
+> [!WARNING]
+> Migrated to Codeberg https://codeberg.org/karrot/email_reply_trimmer_service
+
+---
+
 Wraps https://github.com/discourse/email_reply_trimmer into a docker container and offers trimming services via HTTP.
 
 ## Usage
